@@ -2,6 +2,6 @@
 ** Place here the CSS code that can't be written in the components .mjs files
 */
 
-.offcanvas.show .nav-link{
-	color: blue;
+body {
+	overflow-x: hidden;
 }
