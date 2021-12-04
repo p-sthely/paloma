@@ -2,17 +2,6 @@
 ** Place here the CSS code that can't be written in the components .mjs files
 */
 
-.hello {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-/*
-** for larger screens
-*/
-@media(min-width: 768px) {
-	.hello {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
+.offcanvas.show .nav-link{
+	color: blue;
 }
