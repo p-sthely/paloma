@@ -1,13 +1,11 @@
-import hello from '../components/hello.mjs'
+import navbar from '../components/navbar.mjs'
 
 const data = {
 
 }
 
 const template = `
-  <div class="hello">
-    ${hello}
-  </div>
+  ${navbar}
 `
 
 export default template
