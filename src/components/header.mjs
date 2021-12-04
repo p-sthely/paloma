@@ -1,20 +1,18 @@
 import navbar from './navbar.mjs'
 import cover from './cover.mjs'
+import hero from './hero.mjs'
 
 const data = {
-  text: 'Hello World!',
-  style: {
-    h1: `
-      padding-bottom: 1em;
-      color: #333;
-    `
-  }
+  
 }
 
 const template = `
-<div class="header">
+<div class="header vh-100">
   ${navbar}
   ${cover}
+  <div class="d-flex h-75 justify-content-center">
+    ${hero}
+  </div>
 </div>
 `
 

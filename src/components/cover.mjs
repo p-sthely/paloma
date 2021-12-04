@@ -1,5 +1,4 @@
 const data = {
-  text: 'Hello World!',
   style: {
     img: `
       position: absolute;
@@ -14,7 +13,7 @@ const data = {
 }
 
 const template = `
-  <img src="https://c.pxhere.com/photos/1d/9c/black_and_white_guitar_music_musician_sound-1068782.jpg!d" style="${data.style.img}" alt="a musician playing a yamaha guitar">
+<img src="https://c.pxhere.com/photos/1d/9c/black_and_white_guitar_music_musician_sound-1068782.jpg!d" style="${data.style.img}" alt="a musician playing a yamaha guitar">
 `
 
 export default template
